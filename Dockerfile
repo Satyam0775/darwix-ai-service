@@ -44,3 +44,14 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=15s --retries=3 \
 
 # Start server
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]
+
+
+# Build
+docker build -t darwix-ai .
+
+# Run
+docker run -p 8000:8000 darwix-ai
+
+# Test health
+curl http://localhost:8000/health
+
