@@ -1,0 +1,38 @@
+# Core API
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+alembic
+pydantic
+pydantic-settings
+
+# STT
+openai-whisper
+torch
+torchaudio
+
+# Diarization
+pyannote.audio
+
+# Sentiment
+transformers
+sentencepiece
+
+# TTS
+gTTS
+pydub
+
+# Async / Queue
+celery
+redis
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# Utilities
+python-jose
+loguru
+tenacity
