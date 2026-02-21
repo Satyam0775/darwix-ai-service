@@ -1,0 +1,60 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite3
+
+# HuggingFace model cache (too large for Docker image)
+hf_cache/
+
+# Audio temp files
+tmp/
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Git
+.git/
+.gitignore
+
+# Docs
+*.md
+LICENSE
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CI
+.github/
+
+# Docker
+docker-compose.yml
+Dockerfile
